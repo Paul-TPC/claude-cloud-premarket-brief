@@ -57,3 +57,4 @@
 | 2026-10-08 08:12 | Routine（盤前整理） | 全文含網址約 5,600 字（`wc -m`），扣掉連結網址約 2,040 字；規則的「3,500 字以內」沒說網址算不算 | 確定：規則沒寫 | 以扣掉網址的字數為準；`send` 成功送出 1 則 |
 | 2026-10-17 | Routine（盤前整理） | 報告日 2026-10-17（週六）休市，`collect` 結束碼 3；`send` 失敗：HTTP 400「Bad Request: chat not found」 | 不知道：推測 `TELEGRAM_CHAT_ID` 沒設對，或 bot 沒被加進該聊天室；沒有檢查環境變數的值 | 休市報告檔已寫入 `reports/2026-10-17.md`，未送達；需要擁有者檢查 chat id |
 | 2026-10-17 11:47 | Routine（盤前整理，第二次執行） | 同日重跑，`send` 失敗：HTTP 404「Not Found」（稍早是 400 chat not found） | 不知道：404 通常代表 bot token 無效或已撤銷；沒有檢查環境變數的值 | 休市報告檔已存在，未送達；需要擁有者檢查 `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID` |
+| 2026-10-17 11:49 | Routine（盤前整理，第三次執行） | 同日再重跑，`send` 仍失敗：HTTP 404「Not Found」 | 不知道：同上，token 疑似無效或已撤銷；沒有檢查環境變數的值 | 休市報告檔已存在，未送達；需要擁有者檢查 `TELEGRAM_BOT_TOKEN` |
