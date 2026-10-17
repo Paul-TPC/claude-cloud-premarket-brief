@@ -59,3 +59,4 @@
 | 2026-10-17 11:47 | Routine（盤前整理，第二次執行） | 同日重跑，`send` 失敗：HTTP 404「Not Found」（稍早是 400 chat not found） | 不知道：404 通常代表 bot token 無效或已撤銷；沒有檢查環境變數的值 | 休市報告檔已存在，未送達；需要擁有者檢查 `TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID` |
 | 2026-10-17 11:49 | Routine（盤前整理，第三次執行） | 同日再重跑，`send` 仍失敗：HTTP 404「Not Found」 | 不知道：同上，token 疑似無效或已撤銷；沒有檢查環境變數的值 | 休市報告檔已存在，未送達；需要擁有者檢查 `TELEGRAM_BOT_TOKEN` |
 | 2026-10-17 11:51 | Routine（盤前整理，第四次執行） | 同日再重跑，`send` 仍失敗：HTTP 404「Not Found」；`collect` 抓假日清單第一次被 connection reset，重試後成功（`holiday_source: twse`） | 不知道：token 疑似無效或已撤銷；沒有檢查環境變數的值 | 休市報告檔已存在，未送達；需要擁有者檢查 `TELEGRAM_BOT_TOKEN` |
+| 2026-10-18 | Routine（盤前整理） | 報告日 2026-10-18（週日）休市，`collect` 結束碼 3；`send` 成功送出 1 則 | 確定：10/17 的 404／chat not found 這次沒有再出現 | 休市報告已送達；token／chat id 看來已恢復正常 |
