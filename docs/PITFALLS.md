@@ -60,4 +60,4 @@
 | 2026-10-17 11:49 | Routine（盤前整理，第三次執行） | 同日再重跑，`send` 仍失敗：HTTP 404「Not Found」 | 不知道：同上，token 疑似無效或已撤銷；沒有檢查環境變數的值 | 休市報告檔已存在，未送達；需要擁有者檢查 `TELEGRAM_BOT_TOKEN` |
 | 2026-10-17 11:51 | Routine（盤前整理，第四次執行） | 同日再重跑，`send` 仍失敗：HTTP 404「Not Found」；`collect` 抓假日清單第一次被 connection reset，重試後成功（`holiday_source: twse`） | 不知道：token 疑似無效或已撤銷；沒有檢查環境變數的值 | 休市報告檔已存在，未送達；需要擁有者檢查 `TELEGRAM_BOT_TOKEN` |
 | 2026-10-18 | Routine（盤前整理） | 報告日 2026-10-18（週日）休市，`collect` 結束碼 3；`send` 成功送出 1 則 | 確定：10/17 的 404／chat not found 這次沒有再出現 | 休市報告已送達；token／chat id 看來已恢復正常 |
-| 2026-10-19 | Routine（盤前整理） | `articles` 抓 `tw.news.yahoo.com` 的〈【盤前】恐慌指數急拉費半狂瀉…〉失敗：ProxyError，Tunnel 403 Forbidden（同批 `tw.stock.yahoo.com` 的文章正常）；`articles` 結束碼 2 | 不知道：疑似 `tw.news.yahoo.com` 不在環境網路允許清單（`ROUTINE.md` 清單沒列）；未驗證 | 該篇不列入新聞，記在「今日缺少」；其餘文章正常。若要抓 `tw.news.yahoo.com` 內文，需把它加進允許網域 |
+| 2026-10-19 | Routine（盤前整理） | `articles` 抓 `tw.news.yahoo.com` 的〈【盤前】恐慌指數急拉費半狂瀉…〉失敗：ProxyError，Tunnel 403 Forbidden（同批 `tw.stock.yahoo.com` 的文章正常）；`articles` 結束碼 2 | 不知道：疑似 `tw.news.yahoo.com` 不在環境網路允許清單（`ROUTINE.md` 清單沒列）；未驗證 | 該篇不列入新聞，記在「今日缺少」；其餘文章正常。若要抓 `tw.news.yahoo.com` 內文，需把它加進允許網域（同日已補進 `ROUTINE.md` 的清單；環境設定要擁有者自己加） |

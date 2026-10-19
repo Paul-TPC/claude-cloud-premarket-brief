@@ -19,12 +19,15 @@
   www.twse.com.tw
   openapi.twse.com.tw
   tw.stock.yahoo.com
+  tw.news.yahoo.com
   money.udn.com
   api.cnyes.com
   api.telegram.org
   pypi.org
   files.pythonhosted.org
   ```
+
+  `tw.news.yahoo.com` 是 2026-10-19 補的：v2 的 `articles` 會抓這個網域的 Yahoo 新聞內文，清單原本漏了，當天被擋（見 PITFALLS）。
 
   v1.1 起不再請求 `openapi.twse.com.tw`，可以從清單拿掉（留著也沒影響）。第一階段的 session 連 pypi 被擋（原因沒確認：可能是「包含預設清單」沒勾到，或桌面版沒有這個選項），所以 2026-10-07 手動加了 pypi 那兩個。Routine 本身不需要安裝套件，留著備用。
 
