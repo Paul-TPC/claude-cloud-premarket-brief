@@ -62,3 +62,4 @@
 | 2026-10-18 | Routine（盤前整理） | 報告日 2026-10-18（週日）休市，`collect` 結束碼 3；`send` 成功送出 1 則 | 確定：10/17 的 404／chat not found 這次沒有再出現 | 休市報告已送達；token／chat id 看來已恢復正常 |
 | 2026-10-19 | Routine（盤前整理） | `articles` 抓 `tw.news.yahoo.com` 的〈【盤前】恐慌指數急拉費半狂瀉…〉失敗：ProxyError，Tunnel 403 Forbidden（同批 `tw.stock.yahoo.com` 的文章正常）；`articles` 結束碼 2 | 不知道：疑似 `tw.news.yahoo.com` 不在環境網路允許清單（`ROUTINE.md` 清單沒列）；未驗證 | 該篇不列入新聞，記在「今日缺少」；其餘文章正常。若要抓 `tw.news.yahoo.com` 內文，需把它加進允許網域 |
 | 2026-10-20 | Routine（盤前整理） | `collect` 全部成功、`send` 成功送出 1 則；因 10/19 `tw.news.yahoo.com` 被擋，這次挑文章時避開該網域，沒有再測是否仍被擋 | 確定：結束碼 0；網域是否仍被擋不知道 | 新聞改挑 money.udn.com、news.cnyes.com、tw.stock.yahoo.com 的文章 |
+| 2026-10-21 | Routine（盤前整理） | `collect` 抓開休市清單被證交所擋頁（HTTP 307）、重試仍失敗，`holiday_source: weekend_only`，結束碼 2，其餘來源成功；`articles` 抓 `tw.news.yahoo.com` 這次成功（10/19 曾 403）；Yahoo 盤前文章的成交金額（7,586.8 億）與 JSON（8,029.5 億）對不上，摘要未引用；`send` 成功 1 則 | 確定：開休市清單被擋；`tw.news.yahoo.com` 今天可連。不知道：10/19 的 403 原因 | 報告「今日缺少」註明僅以週末判斷；數字區照 JSON |
