@@ -1,0 +1,1080 @@
+{
+  "report_date": "2026-10-23",
+  "data_date": "2026-10-22",
+  "market_open_today": true,
+  "holiday_source": "twse",
+  "generated_at": "2026-10-23T07:20:54+08:00",
+  "sources": [
+    {
+      "name": "twse_holiday",
+      "url": "https://www.twse.com.tw/rwd/zh/holidaySchedule/holidaySchedule?response=json",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 840
+    },
+    {
+      "name": "twse_index",
+      "url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20261022&type=ALLBUT0999&response=json",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 251
+    },
+    {
+      "name": "twse_institutional",
+      "url": "https://www.twse.com.tw/rwd/zh/fund/BFI82U?type=day&dayDate=20261022&response=json",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 104
+    },
+    {
+      "name": "twse_margin",
+      "url": "https://www.twse.com.tw/rwd/zh/marginTrading/MI_MARGN?date=20261022&selectType=MS&response=json",
+      "ok": false,
+      "error": "HTTP 307，被證交所安全機制擋下（擋頁，錯誤代碼 7641438222807425614）",
+      "elapsed_ms": 626
+    },
+    {
+      "name": "twse_etf_institutional",
+      "url": "https://www.twse.com.tw/rwd/zh/fund/T86?date=20261022&selectType=ALL&response=json",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 289
+    },
+    {
+      "name": "twse_ex_dividend",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT48U?response=json",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 102
+    },
+    {
+      "name": "news_yahoo",
+      "url": "https://tw.stock.yahoo.com/rss?category=tw-market",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 804
+    },
+    {
+      "name": "news_udn",
+      "url": "https://money.udn.com/rssfeed/news/1001/5590?ch=money",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 531
+    },
+    {
+      "name": "news_cnyes",
+      "url": "https://api.cnyes.com/media/api/v1/newslist/category/tw_stock?limit=100",
+      "ok": true,
+      "error": null,
+      "elapsed_ms": 1008
+    }
+  ],
+  "warnings": [
+    "0056 漲跌不是一般格式：漲跌(+/-) 'X'、漲跌價差 '0.00'"
+  ],
+  "index": {
+    "taiex": {
+      "close": 46041.43,
+      "change": -846.34,
+      "change_pct": -1.81,
+      "display": {
+        "close": "46,041.43",
+        "change": "-846.34",
+        "change_pct": "-1.81%"
+      }
+    },
+    "turnover": {
+      "value_twd": 933437473560,
+      "display": {
+        "value": "9,334.4 億"
+      }
+    },
+    "breadth": {
+      "up": 247,
+      "down": 756,
+      "display": {
+        "up": "247 家",
+        "down": "756 家"
+      }
+    }
+  },
+  "sectors": [
+    {
+      "name": "水泥",
+      "close": 135.37,
+      "change_pct": 2.83,
+      "display": {
+        "close": "135.37",
+        "change_pct": "+2.83%"
+      }
+    },
+    {
+      "name": "資訊服務",
+      "close": 250.62,
+      "change_pct": 1.49,
+      "display": {
+        "close": "250.62",
+        "change_pct": "+1.49%"
+      }
+    },
+    {
+      "name": "食品",
+      "close": 1945.41,
+      "change_pct": 0.83,
+      "display": {
+        "close": "1,945.41",
+        "change_pct": "+0.83%"
+      }
+    },
+    {
+      "name": "航運",
+      "close": 217.22,
+      "change_pct": 0.65,
+      "display": {
+        "close": "217.22",
+        "change_pct": "+0.65%"
+      }
+    },
+    {
+      "name": "金融保險",
+      "close": 3742.82,
+      "change_pct": 0.62,
+      "display": {
+        "close": "3,742.82",
+        "change_pct": "+0.62%"
+      }
+    },
+    {
+      "name": "貿易百貨",
+      "close": 242.65,
+      "change_pct": 0.56,
+      "display": {
+        "close": "242.65",
+        "change_pct": "+0.56%"
+      }
+    },
+    {
+      "name": "造紙",
+      "close": 271.56,
+      "change_pct": 0.42,
+      "display": {
+        "close": "271.56",
+        "change_pct": "+0.42%"
+      }
+    },
+    {
+      "name": "鋼鐵",
+      "close": 125.71,
+      "change_pct": 0.39,
+      "display": {
+        "close": "125.71",
+        "change_pct": "+0.39%"
+      }
+    },
+    {
+      "name": "居家生活",
+      "close": 98.14,
+      "change_pct": 0.19,
+      "display": {
+        "close": "98.14",
+        "change_pct": "+0.19%"
+      }
+    },
+    {
+      "name": "紡織纖維",
+      "close": 484.7,
+      "change_pct": 0.11,
+      "display": {
+        "close": "484.70",
+        "change_pct": "+0.11%"
+      }
+    },
+    {
+      "name": "通信網路",
+      "close": 239.44,
+      "change_pct": 0.02,
+      "display": {
+        "close": "239.44",
+        "change_pct": "+0.02%"
+      }
+    },
+    {
+      "name": "汽車",
+      "close": 292.0,
+      "change_pct": -0.01,
+      "display": {
+        "close": "292.00",
+        "change_pct": "-0.01%"
+      }
+    },
+    {
+      "name": "橡膠",
+      "close": 195.96,
+      "change_pct": -0.09,
+      "display": {
+        "close": "195.96",
+        "change_pct": "-0.09%"
+      }
+    },
+    {
+      "name": "觀光餐旅",
+      "close": 102.53,
+      "change_pct": -0.15,
+      "display": {
+        "close": "102.53",
+        "change_pct": "-0.15%"
+      }
+    },
+    {
+      "name": "玻璃陶瓷",
+      "close": 157.4,
+      "change_pct": -0.23,
+      "display": {
+        "close": "157.40",
+        "change_pct": "-0.23%"
+      }
+    },
+    {
+      "name": "建材營造",
+      "close": 439.39,
+      "change_pct": -0.25,
+      "display": {
+        "close": "439.39",
+        "change_pct": "-0.25%"
+      }
+    },
+    {
+      "name": "其他",
+      "close": 273.8,
+      "change_pct": -0.33,
+      "display": {
+        "close": "273.80",
+        "change_pct": "-0.33%"
+      }
+    },
+    {
+      "name": "數位雲端",
+      "close": 40.06,
+      "change_pct": -0.5,
+      "display": {
+        "close": "40.06",
+        "change_pct": "-0.50%"
+      }
+    },
+    {
+      "name": "電器電纜",
+      "close": 106.32,
+      "change_pct": -0.69,
+      "display": {
+        "close": "106.32",
+        "change_pct": "-0.69%"
+      }
+    },
+    {
+      "name": "運動休閒",
+      "close": 55.24,
+      "change_pct": -0.9,
+      "display": {
+        "close": "55.24",
+        "change_pct": "-0.90%"
+      }
+    },
+    {
+      "name": "電子通路",
+      "close": 374.87,
+      "change_pct": -0.99,
+      "display": {
+        "close": "374.87",
+        "change_pct": "-0.99%"
+      }
+    },
+    {
+      "name": "生技醫療",
+      "close": 87.51,
+      "change_pct": -1.5,
+      "display": {
+        "close": "87.51",
+        "change_pct": "-1.50%"
+      }
+    },
+    {
+      "name": "半導體",
+      "close": 1522.74,
+      "change_pct": -1.91,
+      "display": {
+        "close": "1,522.74",
+        "change_pct": "-1.91%"
+      }
+    },
+    {
+      "name": "綠能環保",
+      "close": 121.38,
+      "change_pct": -1.95,
+      "display": {
+        "close": "121.38",
+        "change_pct": "-1.95%"
+      }
+    },
+    {
+      "name": "光電",
+      "close": 76.15,
+      "change_pct": -2.03,
+      "display": {
+        "close": "76.15",
+        "change_pct": "-2.03%"
+      }
+    },
+    {
+      "name": "其他電子",
+      "close": 265.4,
+      "change_pct": -2.14,
+      "display": {
+        "close": "265.40",
+        "change_pct": "-2.14%"
+      }
+    },
+    {
+      "name": "電腦及週邊設備",
+      "close": 441.71,
+      "change_pct": -2.29,
+      "display": {
+        "close": "441.71",
+        "change_pct": "-2.29%"
+      }
+    },
+    {
+      "name": "油電燃氣",
+      "close": 138.96,
+      "change_pct": -2.45,
+      "display": {
+        "close": "138.96",
+        "change_pct": "-2.45%"
+      }
+    },
+    {
+      "name": "電機機械",
+      "close": 513.77,
+      "change_pct": -2.53,
+      "display": {
+        "close": "513.77",
+        "change_pct": "-2.53%"
+      }
+    },
+    {
+      "name": "化學",
+      "close": 194.91,
+      "change_pct": -2.54,
+      "display": {
+        "close": "194.91",
+        "change_pct": "-2.54%"
+      }
+    },
+    {
+      "name": "電子零組件",
+      "close": 883.7,
+      "change_pct": -3.64,
+      "display": {
+        "close": "883.70",
+        "change_pct": "-3.64%"
+      }
+    },
+    {
+      "name": "塑膠",
+      "close": 472.15,
+      "change_pct": -5.39,
+      "display": {
+        "close": "472.15",
+        "change_pct": "-5.39%"
+      }
+    }
+  ],
+  "institutional": {
+    "foreign": {
+      "net_twd": -81582101452,
+      "display": "-815.8 億"
+    },
+    "investment_trust": {
+      "net_twd": 9492200518,
+      "display": "+94.9 億"
+    },
+    "dealer": {
+      "net_twd": -27377364607,
+      "display": "-273.8 億"
+    },
+    "total": {
+      "net_twd": -99467265541,
+      "display": "-994.7 億"
+    }
+  },
+  "margin": null,
+  "etfs": [
+    {
+      "code": "0050",
+      "name": "元大台灣50",
+      "close": 106.9,
+      "change": -1.25,
+      "change_pct": -1.16,
+      "volume_lots": 132442,
+      "foreign_net_lots": -45990,
+      "trust_net_lots": 2106,
+      "dealer_net_lots": -38780,
+      "display": {
+        "close": "106.90",
+        "change_pct": "-1.16%",
+        "volume": "132,442 張",
+        "foreign_net": "-45,990 張",
+        "trust_net": "+2,106 張",
+        "dealer_net": "-38,780 張"
+      }
+    },
+    {
+      "code": "006208",
+      "name": "富邦台50",
+      "close": 244.85,
+      "change": -2.75,
+      "change_pct": -1.11,
+      "volume_lots": 2514,
+      "foreign_net_lots": -700,
+      "trust_net_lots": 14,
+      "dealer_net_lots": -603,
+      "display": {
+        "close": "244.85",
+        "change_pct": "-1.11%",
+        "volume": "2,514 張",
+        "foreign_net": "-700 張",
+        "trust_net": "+14 張",
+        "dealer_net": "-603 張"
+      }
+    },
+    {
+      "code": "0056",
+      "name": "元大高股息",
+      "close": 56.3,
+      "change": null,
+      "change_pct": null,
+      "volume_lots": 120448,
+      "foreign_net_lots": -1532,
+      "trust_net_lots": 150,
+      "dealer_net_lots": -93165,
+      "display": {
+        "close": "56.30",
+        "change_pct": null,
+        "volume": "120,448 張",
+        "foreign_net": "-1,532 張",
+        "trust_net": "+150 張",
+        "dealer_net": "-93,165 張"
+      }
+    },
+    {
+      "code": "00878",
+      "name": "國泰永續高股息",
+      "close": 35.27,
+      "change": -0.12,
+      "change_pct": -0.34,
+      "volume_lots": 20903,
+      "foreign_net_lots": 1078,
+      "trust_net_lots": 0,
+      "dealer_net_lots": -2265,
+      "display": {
+        "close": "35.27",
+        "change_pct": "-0.34%",
+        "volume": "20,903 張",
+        "foreign_net": "+1,078 張",
+        "trust_net": "0 張",
+        "dealer_net": "-2,265 張"
+      }
+    },
+    {
+      "code": "00919",
+      "name": "群益台灣精選高息",
+      "close": 32.42,
+      "change": -0.11,
+      "change_pct": -0.34,
+      "volume_lots": 38322,
+      "foreign_net_lots": 2662,
+      "trust_net_lots": 0,
+      "dealer_net_lots": 6442,
+      "display": {
+        "close": "32.42",
+        "change_pct": "-0.34%",
+        "volume": "38,322 張",
+        "foreign_net": "+2,662 張",
+        "trust_net": "0 張",
+        "dealer_net": "+6,442 張"
+      }
+    }
+  ],
+  "ex_dividend": [],
+  "news": [
+    {
+      "title": "AI支出疑慮再起！美股費半暴跌6.72%、那指跌逾2% 台積電ADR重挫4.5％",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/ai%E6%94%AF%E5%87%BA%E7%96%91%E6%85%AE%E5%86%8D%E8%B5%B7-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E6%9A%B4%E8%B7%8C6-72-%E9%82%A3%E6%8C%87%E8%B7%8C%E9%80%BE2-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E9%87%8D%E6%8C%AB4-223350841.html",
+      "published_at": "2026-10-23T06:33:50+08:00"
+    },
+    {
+      "title": "〈美股盤後〉Meta重燃AI交易恐慌 費半狂瀉近7% 台積電ADR跌超4.5%",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%BE%8C-meta%E9%87%8D%E7%87%83ai%E4%BA%A4%E6%98%93%E6%81%90%E6%85%8C-%E8%B2%BB%E5%8D%8A%E7%8B%82%E7%80%89%E8%BF%917-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E8%B7%8C%E8%B6%854-5-220609266.html",
+      "published_at": "2026-10-23T06:06:09+08:00"
+    },
+    {
+      "title": "友達ADR22日下跌0.81美元跌幅7.06%折台股34.69元",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%8B%E9%81%94adr22%E6%97%A5%E4%B8%8B%E8%B7%8C0-81%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%857-06-%E6%8A%98%E5%8F%B0%E8%82%A134-69%E5%85%83-220602492.html",
+      "published_at": "2026-10-23T06:06:02+08:00"
+    },
+    {
+      "title": "中華電信ADR22日上漲1.22美元漲幅2.57%折台股158.38元",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E8%8F%AF%E9%9B%BB%E4%BF%A1adr22%E6%97%A5%E4%B8%8A%E6%BC%B21-22%E7%BE%8E%E5%85%83%E6%BC%B2%E5%B9%852-57-%E6%8A%98%E5%8F%B0%E8%82%A1158-38%E5%85%83-220557970.html",
+      "published_at": "2026-10-23T06:05:57+08:00"
+    },
+    {
+      "title": "聯電ADR22日下跌1.29美元跌幅6.51%折台股120.47元",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E8%81%AF%E9%9B%BBadr22%E6%97%A5%E4%B8%8B%E8%B7%8C1-29%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%856-51-%E6%8A%98%E5%8F%B0%E8%82%A1120-47%E5%85%83-220555924.html",
+      "published_at": "2026-10-23T06:05:55+08:00"
+    },
+    {
+      "title": "名師操盤》台股崩盤怎麼辦？蔡正華：鎖定3大多頭火種",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%90%8D%E5%B8%AB%E6%93%8D%E7%9B%A4-%E5%8F%B0%E8%82%A1%E5%B4%A9%E7%9B%A4%E6%80%8E%E9%BA%BC%E8%BE%A6-%E8%94%A1%E6%AD%A3%E8%8F%AF-%E9%8E%96%E5%AE%9A3%E5%A4%A7%E5%A4%9A%E9%A0%AD%E7%81%AB%E7%A8%AE-220530305.html",
+      "published_at": "2026-10-23T06:05:30+08:00"
+    },
+    {
+      "title": "台積電ADR22日下跌19.54美元跌幅4.52%折台股2680.93元",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BBadr22%E6%97%A5%E4%B8%8B%E8%B7%8C19-54%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%854-52-%E6%8A%98%E5%8F%B0%E8%82%A12680-93%E5%85%83-214653544.html",
+      "published_at": "2026-10-23T05:46:53+08:00"
+    },
+    {
+      "title": "8檔台股搶手型ETF戰力猛 規模績效雙成長",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/8%E6%AA%94%E5%8F%B0%E8%82%A1%E6%90%B6%E6%89%8B%E5%9E%8Betf%E6%88%B0%E5%8A%9B%E7%8C%9B-%E8%A6%8F%E6%A8%A1%E7%B8%BE%E6%95%88%E9%9B%99%E6%88%90%E9%95%B7-212636130.html",
+      "published_at": "2026-10-23T05:26:36+08:00"
+    },
+    {
+      "title": "主動ETF 83%仍集中台股 摩根：下一波走向全球",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E4%B8%BB%E5%8B%95etf-83-%E4%BB%8D%E9%9B%86%E4%B8%AD%E5%8F%B0%E8%82%A1-%E6%91%A9%E6%A0%B9-%E4%B8%8B-210124108.html",
+      "published_at": "2026-10-23T05:01:24+08:00"
+    },
+    {
+      "title": "10月23日 五件財經大事搶先看",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832642",
+      "published_at": "2026-10-23T04:10:41+08:00"
+    },
+    {
+      "title": "外資倒貨 台股上沖下洗1290點",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%A4%96%E8%B3%87%E5%80%92%E8%B2%A8-%E5%8F%B0%E8%82%A1%E4%B8%8A%E6%B2%96%E4%B8%8B%E6%B4%971290%E9%BB%9E-201000991.html",
+      "published_at": "2026-10-23T04:10:00+08:00"
+    },
+    {
+      "title": "股匯期休市四天",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832480",
+      "published_at": "2026-10-23T03:40:54+08:00"
+    },
+    {
+      "title": "台股短線劇烈修正 名師教戰：盯三道防線",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832467",
+      "published_at": "2026-10-23T03:36:32+08:00"
+    },
+    {
+      "title": "融資浮額未清 引爆停損潮",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832477",
+      "published_at": "2026-10-23T03:30:40+08:00"
+    },
+    {
+      "title": "交投降溫 券商9月獲利減",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832488",
+      "published_at": "2026-10-23T03:30:26+08:00"
+    },
+    {
+      "title": "TISA 2.0省稅 投信：有助大盤長期向上",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832483",
+      "published_at": "2026-10-23T03:27:26+08:00"
+    },
+    {
+      "title": "台股推動銀行業高歌猛進　存股最推5檔",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%8E%A8%E5%8B%95%E9%8A%80%E8%A1%8C%E6%A5%AD%E9%AB%98%E6%AD%8C%E7%8C%9B%E9%80%B2-%E5%AD%98%E8%82%A1%E6%9C%80%E6%8E%A85%E6%AA%94-190500446.html",
+      "published_at": "2026-10-23T03:05:00+08:00"
+    },
+    {
+      "title": "創新板新兵 賴總統期許兩年拚增40家",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832430",
+      "published_at": "2026-10-23T02:02:15+08:00"
+    },
+    {
+      "title": "外資大逃殺！一週狂砍台股5862億　3檔重災區賣超近38萬張",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%A4%96%E8%B3%87%E5%A4%A7%E9%80%83%E6%AE%BA-%E9%80%B1%E7%8B%82%E7%A0%8D%E5%8F%B0%E8%82%A15862%E5%84%84-3%E6%AA%94%E9%87%8D%E7%81%BD%E5%8D%80%E8%B3%A3%E8%B6%85%E8%BF%9138%E8%90%AC%E5%BC%B5-172500893.html",
+      "published_at": "2026-10-23T01:25:00+08:00"
+    },
+    {
+      "title": "聯電攜愛普 攻 AI 伺服器供電 進擊先進封裝電源整合市場",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5710/9832051",
+      "published_at": "2026-10-23T00:21:18+08:00"
+    },
+    {
+      "title": "欣銓Q3每股賺3.1元",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/11074/9832052",
+      "published_at": "2026-10-23T00:19:24+08:00"
+    },
+    {
+      "title": "富邦證勇奪金融雙獎",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832076",
+      "published_at": "2026-10-23T00:18:34+08:00"
+    },
+    {
+      "title": "富邦證拚ESG 納投資決策流程",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832079",
+      "published_at": "2026-10-23T00:17:21+08:00"
+    },
+    {
+      "title": "聯發科擁利多 花旗挺",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5710/9832086",
+      "published_at": "2026-10-23T00:16:33+08:00"
+    },
+    {
+      "title": "量價齊揚股 盤面聚焦",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832089",
+      "published_at": "2026-10-23T00:15:51+08:00"
+    },
+    {
+      "title": "就市論勢／先進封裝、水冷散熱 看俏",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5607/9832095",
+      "published_at": "2026-10-23T00:14:14+08:00"
+    },
+    {
+      "title": "中華電再孵小金雞 成立中華曜智",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5710/9832074",
+      "published_at": "2026-10-23T00:08:45+08:00"
+    },
+    {
+      "title": "中華電信董座簡志誠：期待一年一隻小金雞",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5710/9832083",
+      "published_at": "2026-10-23T00:07:34+08:00"
+    },
+    {
+      "title": "仁寶搶攻歐洲 AI 市場",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5710/9832078",
+      "published_at": "2026-10-23T00:07:13+08:00"
+    },
+    {
+      "title": "信邦Q3每股賺3.79元 稅後純益9.11億元",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/5710/9832081",
+      "published_at": "2026-10-23T00:06:10+08:00"
+    },
+    {
+      "title": "東元旗下 安達康29日登興櫃",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/11074/9832092",
+      "published_at": "2026-10-23T00:04:42+08:00"
+    },
+    {
+      "title": "宇田控制營收拚增雙位數",
+      "source": "經濟日報",
+      "url": "https://money.udn.com/money/story/11074/9832090",
+      "published_at": "2026-10-23T00:04:04+08:00"
+    },
+    {
+      "title": "台股下殺846點失季線！外資又提款815億　颱風假避風頭",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%B8%8B%E6%AE%BA846%E9%BB%9E%E5%A4%B1%E5%AD%A3%E7%B7%9A-%E5%A4%96%E8%B3%87%E5%8F%88%E6%8F%90%E6%AC%BE815%E5%84%84-%E9%A2%B1%E9%A2%A8%E5%81%87%E9%81%BF%E9%A2%A8%E9%A0%AD-160200410.html",
+      "published_at": "2026-10-23T00:02:00+08:00"
+    },
+    {
+      "title": "專家看台積電法說「已確認訊號」！半導體晶片需求仍強　盤點「8檔ETF」規模、績效雙成長",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%B0%88%E5%AE%B6%E7%9C%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%B3%95%E8%AA%AA-%E5%B7%B2%E7%A2%BA%E8%AA%8D%E8%A8%8A%E8%99%9F-%E5%8D%8A%E5%B0%8E%E9%AB%94%E6%99%B6%E7%89%87%E9%9C%80%E6%B1%82%E4%BB%8D%E5%BC%B7-%E7%9B%A4%E9%BB%9E-8%E6%AA%94etf-155500711.html",
+      "published_at": "2026-10-22T23:55:00+08:00"
+    },
+    {
+      "title": "台積電產能供不應求　耗材6檔必收",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%94%A2%E8%83%BD%E4%BE%9B%E4%B8%8D%E6%87%89%E6%B1%82-%E8%80%97%E6%9D%906%E6%AA%94%E5%BF%85%E6%94%B6-150500113.html",
+      "published_at": "2026-10-22T23:05:00+08:00"
+    },
+    {
+      "title": "AI龍頭Meta帶領科技股下殺　美股週四開盤重挫、台積電暴跌逾4%",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/ai%E9%BE%8D%E9%A0%ADmeta%E5%B8%B6%E9%A0%98%E7%A7%91%E6%8A%80%E8%82%A1%E4%B8%8B%E6%AE%BA-%E7%BE%8E%E8%82%A1%E9%80%B1%E5%9B%9B%E9%96%8B%E7%9B%A4%E9%87%8D%E6%8C%AB-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%9A%B4%E8%B7%8C%E9%80%BE4-145945596.html",
+      "published_at": "2026-10-22T22:59:45+08:00"
+    },
+    {
+      "title": "金管會准了！永豐金證券併京城證 11/23合併基準日",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636225",
+      "published_at": "2026-10-22T22:41:10+08:00"
+    },
+    {
+      "title": "颱風假避險賣壓殺爆台股！郭哲榮直言四天後大逆轉：逢低布局這幾檔",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E9%A2%B1%E9%A2%A8%E5%81%87%E9%81%BF%E9%9A%AA%E8%B3%A3%E5%A3%93%E6%AE%BA%E7%88%86%E5%8F%B0%E8%82%A1-%E9%83%AD%E5%93%B2%E6%A6%AE%E7%9B%B4%E8%A8%80%E5%9B%9B%E5%A4%A9%E5%BE%8C%E5%A4%A7%E9%80%86%E8%BD%89-%E9%80%A2%E4%BD%8E%E5%B8%83%E5%B1%80%E9%80%99%E5%B9%BE%E6%AA%94-143500537.html",
+      "published_at": "2026-10-22T22:35:00+08:00"
+    },
+    {
+      "title": "台積電磁吸效應！春水堂二代領軍 明年首進美國、落腳亞利桑那",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%A3%81%E5%90%B8%E6%95%88%E6%87%89-%E6%98%A5%E6%B0%B4%E5%A0%82%E4%BA%8C%E4%BB%A3%E9%A0%98%E8%BB%8D-%E6%98%8E%E5%B9%B4%E9%A6%96%E9%80%B2%E7%BE%8E%E5%9C%8B-%E8%90%BD%E8%85%B3%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3-140902089.html",
+      "published_at": "2026-10-22T22:09:02+08:00"
+    },
+    {
+      "title": "台達電聯發雙法說 美AI三巨頭財報周",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/ai%E9%9B%BB%E6%BA%90ai%E6%99%B6%E7%89%87%E9%9B%99%E6%B3%95%E8%AA%AA%EF%BC%81%E5%8F%B0%E9%81%94%E9%9B%BB%E8%81%AF%E7%99%BC%E5%B1%95%E6%9C%9B%E9%80%A3%E7%99%BC-ai%E4%B8%89%E5%B7%A8%E9%A0%AD%E8%B2%A1%E5%A0%B1%E5%91%A8%EF%BC%81%E5%BE%AE%E8%BB%9F%E3%80%81alphabet%E5%92%8C%E4%BA%9E%E9%A6%AC%E9%81%9C%E5%90%8C%E6%9C%9F%E5%87%BA%E7%88%90-%E8%81%AF%E6%BA%96%E6%9C%83%E5%8D%87%E6%81%AF%E6%A9%9F%E7%8E%87%E4%B8%8D%E5%88%B0%E5%85%A9%E6%88%90%EF%BC%81-%E5%8F%B0%E7%81%A3%E6%8A%95%E8%B3%87%E4%BA%BA%E8%A6%81%E6%B3%A8%E6%84%8F%E4%BB%80%E9%BA%BC%EF%BC%9F%EF%BD%9C%E6%8A%95%E8%B3%87%E6%97%A9%E7%9F%A5%E9%81%93-141107347.html",
+      "published_at": "2026-10-22T22:08:45+08:00"
+    },
+    {
+      "title": "台積電工安4死  高市府不痛不癢？他質疑：在台北會怎樣",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B7%A5%E5%AE%894%E6%AD%BB-%E9%AB%98%E5%B8%82%E5%BA%9C%E4%B8%8D%E7%97%9B%E4%B8%8D%E7%99%A2-%E4%BB%96%E8%B3%AA%E7%96%91-%E5%9C%A8%E5%8F%B0%E5%8C%97%E6%9C%83%E6%80%8E%E6%A8%A3-140513923.html",
+      "published_at": "2026-10-22T22:05:13+08:00"
+    },
+    {
+      "title": "台積電評估赴美德州擴產 同步尋求無稀土馬達降低中國供應風險",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636199",
+      "published_at": "2026-10-22T22:00:15+08:00"
+    },
+    {
+      "title": "台股連假關廁所？美股費半開盤大跌500點",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%80%A3%E5%81%87%E9%97%9C%E5%BB%81%E6%89%80-%E7%BE%8E%E8%82%A1%E8%B2%BB%E5%8D%8A%E9%96%8B%E7%9B%A4%E5%A4%A7%E8%B7%8C500%E9%BB%9E-135046737.html",
+      "published_at": "2026-10-22T21:50:46+08:00"
+    },
+    {
+      "title": "「台股沒救了！」台積電快跌破半年線　陳嘉偉喊：只剩一條路能賺錢",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%B2%92%E6%95%91%E4%BA%86-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BF%AB%E8%B7%8C%E7%A0%B4%E5%8D%8A%E5%B9%B4%E7%B7%9A-%E9%99%B3%E5%98%89%E5%81%89%E5%96%8A-%E5%8F%AA%E5%89%A9-%E6%A2%9D%E8%B7%AF%E8%83%BD%E8%B3%BA%E9%8C%A2-132300590.html",
+      "published_at": "2026-10-22T21:23:00+08:00"
+    },
+    {
+      "title": "股東會委託書申報改電子化　2027年7月上路",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E8%82%A1%E6%9D%B1%E6%9C%83%E5%A7%94%E8%A8%97%E6%9B%B8%E7%94%B3%E5%A0%B1%E6%94%B9%E9%9B%BB%E5%AD%90%E5%8C%96-2027%E5%B9%B47%E6%9C%88%E4%B8%8A%E8%B7%AF-132153189.html",
+      "published_at": "2026-10-22T21:21:53+08:00"
+    },
+    {
+      "title": "〈房產〉9月五大銀行新承做房貸增逾百億元 央行這樣解讀",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636097",
+      "published_at": "2026-10-22T21:11:26+08:00"
+    },
+    {
+      "title": "4檔處置股因颱風順延10/27抓去關 PCB飆股金居處置到11/2止",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636083",
+      "published_at": "2026-10-22T21:08:05+08:00"
+    },
+    {
+      "title": "台股10/23因颱風休市！程曦、藍新掛牌順延 興櫃3新兵延至下周登場",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A110-23%E5%9B%A0%E9%A2%B1%E9%A2%A8%E4%BC%91%E5%B8%82-%E7%A8%8B%E6%9B%A6-%E8%97%8D%E6%96%B0%E6%8E%9B%E7%89%8C%E9%A0%86%E5%BB%B6-%E8%88%88%E6%AB%833%E6%96%B0%E5%85%B5%E5%BB%B6%E8%87%B3%E4%B8%8B%E5%91%A8%E7%99%BB%E5%A0%B4-130702514.html",
+      "published_at": "2026-10-22T21:07:02+08:00"
+    },
+    {
+      "title": "受中颱薔琵影響　台積電週六運動會宣布取消",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%97%E4%B8%AD%E9%A2%B1%E8%96%94%E7%90%B5%E5%BD%B1%E9%9F%BF-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%80%B1%E5%85%AD%E9%81%8B%E5%8B%95%E6%9C%83%E5%AE%A3%E5%B8%83%E5%8F%96%E6%B6%88-130341517.html",
+      "published_at": "2026-10-22T21:03:41+08:00"
+    },
+    {
+      "title": "台積電帶隊出海　勤業眾信揭海外設廠3風險",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B8%B6%E9%9A%8A%E5%87%BA%E6%B5%B7-%E5%8B%A4%E6%A5%AD%E7%9C%BE%E4%BF%A1%E6%8F%AD%E6%B5%B7%E5%A4%96%E8%A8%AD%E5%BB%A03%E9%A2%A8%E9%9A%AA-130000101.html",
+      "published_at": "2026-10-22T21:00:00+08:00"
+    },
+    {
+      "title": "薔琵攪局 台積電運動會喊卡 10年內第4度停辦",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E8%96%94%E7%90%B5%E6%94%AA%E5%B1%80-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%81%8B%E5%8B%95%E6%9C%83%E5%96%8A%E5%8D%A1-10%E5%B9%B4%E5%85%A7%E7%AC%AC4%E5%BA%A6%E5%81%9C%E8%BE%A6-124447954.html",
+      "published_at": "2026-10-22T20:44:47+08:00"
+    },
+    {
+      "title": "高雄食品展集結300家國內外企業 助本土業者拓展出口商機",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636140",
+      "published_at": "2026-10-22T20:43:22+08:00"
+    },
+    {
+      "title": "因應全球氣候變遷 賴清德祭兩大戰略因應 年底提「國家都市林推動計畫」",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636089",
+      "published_at": "2026-10-22T20:37:17+08:00"
+    },
+    {
+      "title": "國發基金海外融資翻倍至600億元 葉俊顯喊「台灣模式」助半導體出海",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636005",
+      "published_at": "2026-10-22T20:33:51+08:00"
+    },
+    {
+      "title": "路透：台積電尋求使用無稀土馬達 擺脫中國稀土壟斷控制",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E8%B7%AF%E9%80%8F-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B0%8B%E6%B1%82%E4%BD%BF%E7%94%A8%E7%84%A1%E7%A8%80%E5%9C%9F%E9%A6%AC%E9%81%94-%E6%93%BA%E8%84%AB%E4%B8%AD%E5%9C%8B%E7%A8%80%E5%9C%9F%E5%A3%9F%E6%96%B7%E6%8E%A7%E5%88%B6-122704560.html",
+      "published_at": "2026-10-22T20:27:04+08:00"
+    },
+    {
+      "title": "薔琵颱風逼近！北市23日停班停課 台北股匯休市一天",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636138",
+      "published_at": "2026-10-22T20:23:38+08:00"
+    },
+    {
+      "title": "薔琵颱風影響 台積電宣布10/24運動會取消",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636099",
+      "published_at": "2026-10-22T20:22:57+08:00"
+    },
+    {
+      "title": "快訊／強颱薔琵來襲　台股明天休市、交割款券順延辦理",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E5%BC%B7%E9%A2%B1%E8%96%94%E7%90%B5%E4%BE%86%E8%A5%B2-%E5%8F%B0%E8%82%A1%E6%98%8E%E5%A4%A9%E4%BC%91%E5%B8%82-%E4%BA%A4%E5%89%B2%E6%AC%BE%E5%88%B8%E9%A0%86%E5%BB%B6%E8%BE%A6%E7%90%86-122033756.html",
+      "published_at": "2026-10-22T20:20:33+08:00"
+    },
+    {
+      "title": "颱風薔琵衝擊台積電！ 10/24運動會取消",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E9%A2%B1%E9%A2%A8%E8%96%94%E7%90%B5%E8%A1%9D%E6%93%8A%E5%8F%B0%E7%A9%8D%E9%9B%BB%EF%BC%81-1024%E9%81%8B%E5%8B%95%E6%9C%83%E5%8F%96%E6%B6%88-122405173.html",
+      "published_at": "2026-10-22T20:16:26+08:00"
+    },
+    {
+      "title": "預言大台北放颱風假！分析師郭哲榮賭「5000杯珍奶」：台股明天不開盤",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E9%A0%90%E8%A8%80%E5%A4%A7%E5%8F%B0%E5%8C%97%E6%94%BE%E9%A2%B1%E9%A2%A8%E5%81%87-%E5%88%86%E6%9E%90%E5%B8%AB%E9%83%AD%E5%93%B2%E6%A6%AE%E8%B3%AD-5000%E6%9D%AF%E7%8F%8D%E5%A5%B6-%E5%8F%B0%E8%82%A1%E6%98%8E%E5%A4%A9%E4%B8%8D%E9%96%8B%E7%9B%A4-121354192.html",
+      "published_at": "2026-10-22T20:13:54+08:00"
+    },
+    {
+      "title": "電子科技、AI暨物聯網展走入產業現場 3天共吸引7千位買主觀展",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636006",
+      "published_at": "2026-10-22T20:13:19+08:00"
+    },
+    {
+      "title": "快訊／蔣萬安鬆口「北北基桃停班課」！怪物秋颱薔琵來襲　台股同步休市",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%BF%AB%E8%A8%8A-%E6%80%AA%E7%89%A9%E7%A7%8B%E9%A2%B1%E8%96%94%E7%90%B5%E4%BE%86%E8%A5%B2-%E8%94%A3%E8%90%AC%E5%AE%89%E9%AC%86%E5%8F%A3-%E5%8C%97%E5%8C%97%E5%9F%BA%E6%A1%83%E5%81%9C%E7%8F%AD%E8%AA%B2-%E5%8F%B0%E8%82%A1%E5%90%8C%E6%AD%A5%E4%BC%91%E5%B8%82-120000259.html",
+      "published_at": "2026-10-22T20:00:00+08:00"
+    },
+    {
+      "title": "正2與半導體屠榜！台股ETF績效大體檢　冠軍竟然不是0050",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E6%AD%A32%E8%88%87%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%B1%A0%E6%A6%9C-%E5%8F%B0%E8%82%A1etf%E7%B8%BE%E6%95%88%E5%A4%A7%E9%AB%94%E6%AA%A2-%E5%86%A0%E8%BB%8D%E7%AB%9F%E7%84%B6%E4%B8%8D%E6%98%AF0050-115900871.html",
+      "published_at": "2026-10-22T19:59:00+08:00"
+    },
+    {
+      "title": "櫃買中心海外引資首發新加坡 領軍信驊等7家上櫃企業赴星國開法說",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636084",
+      "published_at": "2026-10-22T19:56:40+08:00"
+    },
+    {
+      "title": "台股震盪逾千點！兇手抓到了？分析師點名「7檔潛力股」有望迎反彈",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA%E9%80%BE%E5%8D%83%E9%BB%9E-%E5%85%87%E6%89%8B%E6%8A%93%E5%88%B0%E4%BA%86-%E5%88%86%E6%9E%90%E5%B8%AB%E9%BB%9E%E5%90%8D-7%E6%AA%94%E6%BD%9B%E5%8A%9B%E8%82%A1-%E6%9C%89%E6%9C%9B%E8%BF%8E%E5%8F%8D%E5%BD%88-114500445.html",
+      "published_at": "2026-10-22T19:45:00+08:00"
+    },
+    {
+      "title": "台股9月高檔震盪　全體券商獲利187億元月減3成",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A19%E6%9C%88%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA-%E5%85%A8%E9%AB%94%E5%88%B8%E5%95%86%E7%8D%B2%E5%88%A9187%E5%84%84%E5%85%83%E6%9C%88%E6%B8%9B3%E6%88%90-114057478.html",
+      "published_at": "2026-10-22T19:40:57+08:00"
+    },
+    {
+      "title": "盧超群示警台灣「不能只靠台積電」：未來三年IC設計關鍵期",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E7%9B%A7%E8%B6%85%E7%BE%A4%E7%A4%BA%E8%AD%A6%E5%8F%B0%E7%81%A3-%E4%B8%8D%E8%83%BD%E5%8F%AA%E9%9D%A0%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E6%9C%AA%E4%BE%86%E4%B8%89%E5%B9%B4ic%E8%A8%AD%E8%A8%88%E9%97%9C%E9%8D%B5%E6%9C%9F-113900481.html",
+      "published_at": "2026-10-22T19:39:00+08:00"
+    },
+    {
+      "title": "台股震盪「瑤池金母」連5天砸117億再掃7檔AI股：這檔買到只輸台積電",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E7%91%A4%E6%B1%A0%E9%87%91%E6%AF%8D-%E9%80%A35%E5%A4%A9%E7%A0%B8117%E5%84%84%E5%86%8D%E6%8E%837%E6%AA%94ai%E8%82%A1-%E9%80%99%E6%AA%94%E8%B2%B7%E5%88%B0%E5%8F%AA%E8%BC%B8%E5%8F%B0%E7%A9%8D%E9%9B%BB-112700462.html",
+      "published_at": "2026-10-22T19:27:00+08:00"
+    },
+    {
+      "title": "颱風假台股開不開? 券商公會這樣說",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E9%A2%B1%E9%A2%A8%E5%81%87%E5%8F%B0%E8%82%A1%E9%96%8B%E4%B8%8D%E9%96%8B-%E5%88%B8%E5%95%86%E5%85%AC%E6%9C%83%E9%80%99%E6%A8%A3%E8%AA%AA-112043530.html",
+      "published_at": "2026-10-22T19:20:43+08:00"
+    },
+    {
+      "title": "智冠旗下智雲科技推資安「層層驗證」概念 三大面向建立防護機制",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636009",
+      "published_at": "2026-10-22T19:06:53+08:00"
+    },
+    {
+      "title": "颱風還沒來散戶先跑了？台股大跌846點　專家曝資金躲進2題材：留下的全淪當沖絞肉機",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E9%A2%B1%E9%A2%A8%E9%82%84%E6%B2%92%E4%BE%86%E6%95%A3%E6%88%B6%E5%85%88%E8%B7%91%E4%BA%86-%E5%8F%B0%E8%82%A1%E5%A4%A7%E8%B7%8C846%E9%BB%9E-%E5%B0%88%E5%AE%B6%E6%9B%9D%E8%B3%87%E9%87%91%E8%BA%B2%E9%80%B22%E9%A1%8C%E6%9D%90-%E7%95%99%E4%B8%8B%E7%9A%84%E5%85%A8%E6%B7%AA%E7%95%B6%E6%B2%96%E7%B5%9E%E8%82%89%E6%A9%9F-105853692.html",
+      "published_at": "2026-10-22T18:58:53+08:00"
+    },
+    {
+      "title": "凍資台股8千億「吸金怪獸」漢測上櫃一個月就庫藏股自救！明起買回自家股票30萬股",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%87%8D%E8%B3%87%E5%8F%B0%E8%82%A18%E5%8D%83%E5%84%84%E3%80%8C%E5%90%B8%E9%87%91%E6%80%AA%E7%8D%B8%E3%80%8D%E6%BC%A2%E6%B8%AC%E4%B8%8A%E6%AB%83%E4%B8%80%E5%80%8B%E6%9C%88%E5%B0%B1%E5%BA%AB%E8%97%8F%E8%82%A1%E8%87%AA%E6%95%91%EF%BC%81%E6%98%8E%E8%B5%B7%E8%B2%B7%E5%9B%9E%E8%87%AA%E5%AE%B6%E8%82%A1%E7%A5%A830%E8%90%AC%E8%82%A1-110008659.html",
+      "published_at": "2026-10-22T18:54:53+08:00"
+    },
+    {
+      "title": "宇田控制10/23登興櫃每股42.5元 全年營收可望創新高雙位數成長",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636012",
+      "published_at": "2026-10-22T18:52:43+08:00"
+    },
+    {
+      "title": "台股ETF績效長紅 群益00685L漲125.46%奪冠",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1etf%E7%B8%BE%E6%95%88%E9%95%B7%E7%B4%85-%E7%BE%A4%E7%9B%8A00685l%E6%BC%B2125-46-%E5%A5%AA%E5%86%A0-105235751.html",
+      "published_at": "2026-10-22T18:52:35+08:00"
+    },
+    {
+      "title": "CCL一路旺到2029年！「這檔」狂捲313億成交額僅次台積電　臻鼎開高走低跌1.9%、吸金264億躍居前五",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/ccl-%E8%B7%AF%E6%97%BA%E5%88%B02029%E5%B9%B4-%E9%80%99%E6%AA%94-%E7%8B%82%E6%8D%B2313%E5%84%84%E6%88%90%E4%BA%A4%E9%A1%8D%E5%83%85%E6%AC%A1%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%87%BB%E9%BC%8E%E9%96%8B%E9%AB%98%E8%B5%B0%E4%BD%8E%E8%B7%8C1-104500295.html",
+      "published_at": "2026-10-22T18:45:00+08:00"
+    },
+    {
+      "title": "國泰以客為尊提供暖心金融服務 榮獲「財訊金融獎」四大獎",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636008",
+      "published_at": "2026-10-22T18:41:10+08:00"
+    },
+    {
+      "title": "增4檔關禁閉！台積電供應鏈「這檔妖股」關7天最慘",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E5%A2%9E4%E6%AA%94%E9%97%9C%E7%A6%81%E9%96%89-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BE%9B%E6%87%89%E9%8F%88-%E9%80%99%E6%AA%94%E5%A6%96%E8%82%A1-%E9%97%9C7%E5%A4%A9%E6%9C%80%E6%85%98-103400053.html",
+      "published_at": "2026-10-22T18:34:00+08:00"
+    },
+    {
+      "title": "慶豐富擬撤銷發行3億元CB市場籌資案 需求以自有資金支應",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635950",
+      "published_at": "2026-10-22T18:33:22+08:00"
+    },
+    {
+      "title": "中信金控榮獲「2026財訊金融獎」三大獎 AI智能金融服務生態系提升客戶體驗",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6636002",
+      "published_at": "2026-10-22T18:29:38+08:00"
+    },
+    {
+      "title": "外資再砍台股逾800億　新台幣貶2分收32.508元",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%A4%96%E8%B3%87%E5%86%8D%E7%A0%8D%E5%8F%B0%E8%82%A1%E9%80%BE800%E5%84%84-%E6%96%B0%E5%8F%B0%E5%B9%A3%E8%B2%B62%E5%88%86%E6%94%B632-508%E5%85%83-102854681.html",
+      "published_at": "2026-10-22T18:28:54+08:00"
+    },
+    {
+      "title": "神盾結盟法國SiPearl展開國家級CPU策略合作 布局HPC、AI及資料中心市場",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635934",
+      "published_at": "2026-10-22T18:26:15+08:00"
+    },
+    {
+      "title": "信邦Q3純益年增24% EPS 3.79元創六季高點",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635875",
+      "published_at": "2026-10-22T18:25:42+08:00"
+    },
+    {
+      "title": "川普恐失國會優勢、台股AI多頭變天？ 鉅亨買基金：選舉未必利空、3類基金分散布局",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E5%B7%9D%E6%99%AE%E6%81%90%E5%A4%B1%E5%9C%8B%E6%9C%83%E5%84%AA%E5%8B%A2-%E5%8F%B0%E8%82%A1ai%E5%A4%9A%E9%A0%AD%E8%AE%8A%E5%A4%A9-%E9%89%85%E4%BA%A8%E8%B2%B7%E5%9F%BA%E9%87%91-%E9%81%B8%E8%88%89%E6%9C%AA%E5%BF%85%E5%88%A9%E7%A9%BA-3%E9%A1%9E%E5%9F%BA%E9%87%91%E5%88%86%E6%95%A3%E5%B8%83%E5%B1%80-102358710.html",
+      "published_at": "2026-10-22T18:23:58+08:00"
+    },
+    {
+      "title": "【量大強漲股整理】【4526東台】 ⊕【1528恩德】 ⊕血洗台股！先下後上？下週關鍵大事件潛力股全揭露！財富重分配跟著佳螢【撿鑽石】",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635953",
+      "published_at": "2026-10-22T18:23:18+08:00"
+    },
+    {
+      "title": "〈公股投信四合一〉打造資產管理國家隊！合併後AUM近5000億元 目標闖進業界前八",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635949",
+      "published_at": "2026-10-22T18:22:30+08:00"
+    },
+    {
+      "title": "主動式ETF規模逼近兆元大關 83%緊抱台股、跨國債券型猛增近4成",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E4%B8%BB%E5%8B%95%E5%BC%8Fetf%E8%A6%8F%E6%A8%A1%E9%80%BC%E8%BF%91%E5%85%86%E5%85%83%E5%A4%A7%E9%97%9C-83-%E7%B7%8A%E6%8A%B1%E5%8F%B0%E8%82%A1-%E8%B7%A8%E5%9C%8B%E5%82%B5%E5%88%B8%E5%9E%8B%E7%8C%9B%E5%A2%9E%E8%BF%914%E6%88%90-102008289.html",
+      "published_at": "2026-10-22T18:20:08+08:00"
+    },
+    {
+      "title": "散戶這波怕了？台股「溜滑梯」狂瀉846點摜破季線　專家：這原因讓投資人先賣再說",
+      "source": "Yahoo股市",
+      "url": "https://tw.news.yahoo.com/%E6%95%A3%E6%88%B6%E9%80%99%E6%B3%A2%E6%80%95%E4%BA%86-%E5%8F%B0%E8%82%A1-%E6%BA%9C%E6%BB%91%E6%A2%AF-%E7%8B%82%E7%80%89846%E9%BB%9E%E6%91%9C%E7%A0%B4%E5%AD%A3%E7%B7%9A-%E5%B0%88%E5%AE%B6-102000264.html",
+      "published_at": "2026-10-22T18:20:00+08:00"
+    },
+    {
+      "title": "暴跌846點不是致命利空？專家曝台股「周年慶打折」時刻到了 南電、大量、聯茂…4族群可以買到甜甜價",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E6%9A%B4%E8%B7%8C846%E9%BB%9E%E4%B8%8D%E6%98%AF%E8%87%B4%E5%91%BD%E5%88%A9%E7%A9%BA-%E5%B0%88%E5%AE%B6%E6%9B%9D%E5%8F%B0%E8%82%A1-%E5%91%A8%E5%B9%B4%E6%85%B6%E6%89%93%E6%8A%98-%E6%99%82%E5%88%BB%E5%88%B0%E4%BA%86-%E5%8D%97%E9%9B%BB-100604434.html",
+      "published_at": "2026-10-22T18:06:04+08:00"
+    },
+    {
+      "title": "「沒颱風假再崩1000點」！專家曝台股關門放狗 台積電、聯發科警鈴大響",
+      "source": "Yahoo股市",
+      "url": "https://tw.stock.yahoo.com/news/%E6%B2%92%E9%A2%B1%E9%A2%A8%E5%81%87%E5%86%8D%E5%B4%A91000%E9%BB%9E-%E5%B0%88%E5%AE%B6%E6%9B%9D%E5%8F%B0%E8%82%A1%E9%97%9C%E9%96%80%E6%94%BE%E7%8B%97-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E8%81%AF%E7%99%BC%E7%A7%91%E8%AD%A6%E9%88%B4%E5%A4%A7%E9%9F%BF-100529518.html",
+      "published_at": "2026-10-22T18:05:29+08:00"
+    },
+    {
+      "title": "〈公股投信四合一〉最快下周送件暫定2028元旦正式合併 張傳章：股權分配相當合理",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635876",
+      "published_at": "2026-10-22T18:03:47+08:00"
+    },
+    {
+      "title": "別讓一時的恐慌、錯過了人生翻身的機會、建榮、金像電、矽力、TPK",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635927",
+      "published_at": "2026-10-22T17:33:12+08:00"
+    },
+    {
+      "title": "〈台幣〉央行力抗外資匯出 爆成交大量 僅小貶2分收32.508元",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635878",
+      "published_at": "2026-10-22T17:32:32+08:00"
+    },
+    {
+      "title": "響應臺灣週 國泰投信11/4舉辦「從矽谷到矽島 AI時代的投資地圖」論壇 台韓專家解析最新投資趨勢",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635925",
+      "published_at": "2026-10-22T17:31:40+08:00"
+    },
+    {
+      "title": "〈房產〉國泰房地產指數：Q3新北銷售率下滑到3.72% 市場去化動能轉弱",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635896",
+      "published_at": "2026-10-22T17:30:06+08:00"
+    },
+    {
+      "title": "台股失守季線下探46K 外資砍816.56億元期貨同步轉空",
+      "source": "鉅亨網",
+      "url": "https://news.cnyes.com/news/id/6635866",
+      "published_at": "2026-10-22T17:23:37+08:00"
+    }
+  ]
+}
