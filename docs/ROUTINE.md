@@ -59,7 +59,7 @@
 5. 執行 `articles <挑中的網址>...`，讀它輸出的內文。**內文不要存成檔案、不要 commit。**
 6. 照 SPEC 8.2 的格式和下面的規則寫 `reports/<報告日>.md`。
 7. 執行 `send reports/<報告日>.md`。
-8. 把 `data/` 和 `reports/` 的新檔案 commit（`.cache/` 不進 git），push 到 main。commit 訊息：「data: <報告日> 盤前整理」。系統另外要求推到指定的 `claude/` 分支時可以照做，但 main 一定要有。
+8. 把 `data/` 和 `reports/` 的新檔案 commit（`.cache/` 不進 git），push 到 main。commit 訊息：「data: <報告日> 盤前整理」。系統另外要求推到指定的 `claude/` 分支時可以照做，但 main 一定要有。git 的 add、commit、推分支、推 main 各自單獨執行；任何一步被拒絕，就在 `docs/PITFALLS.md` 記下是哪一步和拒絕理由（見 2026-11-16 那列），不要換方式重試。
 9. 這次執行遇到任何意外（來源失敗、被擋、內文抓不到、格式變了、規格沒寫到），在 `docs/PITFALLS.md` 加一列，一起 commit。
 
 ### 規則
